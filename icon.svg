@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Full-bleed background so the icon is safe to use as maskable -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#232d3a"/>
+      <stop offset="1" stop-color="#0f1419"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" fill="url(#bg)"/>
+
+  <!-- All foreground stays inside the maskable safe zone (center ~80%) -->
+  <!-- Rising curve: lightness and progress -->
+  <path d="M120 372 C 196 372, 236 248, 392 168"
+        fill="none" stroke="#79c99a" stroke-width="38"
+        stroke-linecap="round"/>
+
+  <!-- Calm dot: the daily evening ritual -->
+  <circle cx="344" cy="156" r="30" fill="#6ba3d6"/>
+</svg>
