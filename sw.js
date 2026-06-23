@@ -1,6 +1,6 @@
 // New Dad Tracker service worker
 // Bump CACHE when you change any cached file, so old caches get cleared.
-var CACHE = "newdad-v1.0.0";
+var CACHE = "newdad-v1.0.2";
 
 // Local app shell. Relative paths so it works under a GitHub Pages subpath.
 var SHELL = [
